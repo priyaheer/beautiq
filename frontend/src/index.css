@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-ivory text-ink font-sans antialiased}
+h1,h2,h3{@apply font-serif font-medium tracking-tight}
+.btn{@apply inline-flex items-center justify-center gap-2 px-6 py-3 text-xs uppercase tracking-[.18em] transition}
+.btn-dark{@apply btn bg-ink text-ivory hover:bg-rose}
+.btn-line{@apply btn border border-ink hover:bg-ink hover:text-ivory}
+.wrap{@apply mx-auto max-w-7xl px-5 md:px-8}
